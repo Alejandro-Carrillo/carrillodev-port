@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 logs
 *.log
@@ -29,3 +30,7 @@ node_modules/
 /.firebase
 /font
 /graphics
+=======
+/font
+/graphics
+>>>>>>> e120012e4f8394342acb73223be8decebc235ce0

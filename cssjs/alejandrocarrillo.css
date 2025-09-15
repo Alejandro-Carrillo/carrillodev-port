@@ -1,11 +1,20 @@
 @font-face {
   font-family: 'alejandrocarrillo';
+<<<<<<< HEAD
   src: url('../font/alejandrocarrillo.eot?20930211');
   src: url('../font/alejandrocarrillo.eot?20930211#iefix') format('embedded-opentype'),
        url('../font/alejandrocarrillo.woff2?20930211') format('woff2'),
        url('../font/alejandrocarrillo.woff?20930211') format('woff'),
        url('../font/alejandrocarrillo.ttf?20930211') format('truetype'),
        url('../font/alejandrocarrillo.svg?20930211#alejandrocarrillo') format('svg');
+=======
+  src: url('../font/alejandrocarrillo.eot?97237063');
+  src: url('../font/alejandrocarrillo.eot?97237063#iefix') format('embedded-opentype'),
+       url('../font/alejandrocarrillo.woff2?97237063') format('woff2'),
+       url('../font/alejandrocarrillo.woff?97237063') format('woff'),
+       url('../font/alejandrocarrillo.ttf?97237063') format('truetype'),
+       url('../font/alejandrocarrillo.svg?97237063#alejandrocarrillo') format('svg');
+>>>>>>> e120012e4f8394342acb73223be8decebc235ce0
   font-weight: normal;
   font-style: normal;
 }
@@ -15,7 +24,11 @@
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
     font-family: 'alejandrocarrillo';
+<<<<<<< HEAD
     src: url('../font/alejandrocarrillo.svg?20930211#alejandrocarrillo') format('svg');
+=======
+    src: url('../font/alejandrocarrillo.svg?97237063#alejandrocarrillo') format('svg');
+>>>>>>> e120012e4f8394342acb73223be8decebc235ce0
   }
 }
 */
@@ -54,6 +67,7 @@
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
 
+<<<<<<< HEAD
 .icon-up:before { content: '\e800'; } /* '' */
 .icon-tiktok:before { content: '\e801'; } /* '' */
 .icon-developer:before { content: '\e802'; } /* '' */
@@ -79,3 +93,23 @@
 .icon-whatsapp:before { content: '\f232'; } /* '' */
 .icon-telegram:before { content: '\f2c6'; } /* '' */
 .icon-facebook-squared:before { content: '\f30e'; } /* '' */
+=======
+.icon-music:before { content: '\e800'; } /* '' */
+.icon-up:before { content: '\e801'; } /* '' */
+.icon-share:before { content: '\e802'; } /* '' */
+.icon-pinterest:before { content: '\e803'; } /* '' */
+.icon-x:before { content: '\e804'; } /* '' */
+.icon-tiktok:before { content: '\e805'; } /* '' */
+.icon-sport:before { content: '\e806'; } /* '' */
+.icon-instagram:before { content: '\e807'; } /* '' */
+.icon-family:before { content: '\e808'; } /* '' */
+.icon-developer:before { content: '\e809'; } /* '' */
+.icon-menu:before { content: '\f008'; } /* '' */
+.icon-link:before { content: '\f07b'; } /* '' */
+.icon-github:before { content: '\f09b'; } /* '' */
+.icon-copy:before { content: '\f0c5'; } /* '' */
+.icon-coffee:before { content: '\f0f4'; } /* '' */
+.icon-copyright:before { content: '\f1f9'; } /* '' */
+.icon-facebook:before { content: '\f30e'; } /* '' */
+.icon-linkedin:before { content: '\f318'; } /* '' */
+>>>>>>> e120012e4f8394342acb73223be8decebc235ce0

@@ -29,7 +29,7 @@ node_modules/
 /.firebase
 /font
 /graphics
-.firebaserc
+404.html
 .htaccess
 firebase.json
-404.html
+.firebaserc

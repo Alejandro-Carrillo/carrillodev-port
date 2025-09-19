@@ -33,6 +33,29 @@ function verBarra() {
     }
 };
 
+/* --------------------- */
+const opciones = {
+    root: null, 
+    threshold: 0.5
+};
+
+
+const observer = new IntersectionObserver((entradas, observer) => {
+    entradas.forEach(entrada => {
+        if (entrada.isIntersecting) {
+            entrada.target.classList.add('cards-visible');
+        } else {
+            entrada.target.classList.remove('cards-visible');
+        }
+    });
+}, opciones);
+
+
+const cards = document.querySelectorAll('.cards');
+cards.forEach(card => {
+    observer.observe(card);
+});
+
 
 /* --------------------- */
 window.onload = function () {
@@ -80,16 +103,17 @@ document.getElementById('contactForm').addEventListener('submit', function (even
     event.preventDefault();
     const formData = new FormData(this);
     const scriptURL = 'https://script.google.com/macros/s/AKfycbyqomZGHBmf3fLn1ivOJCFD8UC7dkeewYGovdNTP_Sj_B3CHMZdIw0MQjzBplZo19Wamw/exec';
+    let nameForm = document.getElementById('name-form').value;
     fetch(scriptURL, { method: 'POST', body: formData })
         .then(response => {
         });
-    alert('¡Mensaje enviado con éxito!');
+    alert('¡Apreciado cliente ' + nameForm + ' en menos de 12 horas estaré comunicándome con usted. \nGracias por preferirme.');
     this.reset();
 })
-    .catch(error => {
+    /* .catch(error => {
         alert('Ocurrió un error al enviar el mensaje.');
         console.error('Error:', error);
-    });
+    }); */
 
 
 

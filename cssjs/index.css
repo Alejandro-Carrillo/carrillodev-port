@@ -451,6 +451,12 @@
     color: var(--color-principal);
     border-radius: 10px;
     border: 2px solid var(--color-principal);
+    transition: 0.5s all ease;
+}
+
+.service:hover {
+    border: 2px solid var(--color-iconos);
+    box-shadow: 0 10px 20px rgba(255, 255, 255, 0.5)
 }
 
 .img-service {
@@ -706,6 +712,17 @@
     font-size: 20px;
 }
 
+.cards {
+    opacity: 0;
+    transform: translateX(100px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.cards-visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
 @media screen and (min-width: 640px) {
 
     .about,
@@ -791,7 +808,7 @@
 
 @media screen and (min-width: 992px) {
     .box-about {
-        width: 800px;        
+        width: 800px;
         align-items: center;
     }
 }

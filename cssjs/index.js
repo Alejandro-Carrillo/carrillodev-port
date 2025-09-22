@@ -66,7 +66,7 @@ window.onload = function () {
 let comp = document.getElementById('share');
 const shareData = {
     title: 'Alejandro Carrillo',
-    text: 'Portafolio | Programador de Software',
+    text: 'Portafolio | Programador de software',
     url: 'https://carrillodev.com',
 };
 if (navigator.share) {
@@ -76,7 +76,7 @@ if (navigator.share) {
 
 function compart() {
     navigator.share(shareData)
-        .then(() => alert('Gracias por compartir mi portafolio'))
+        .then(() => alert('Gracias por compartir mi portafolio.'))
         .catch(() => console.log(""))
 };
 

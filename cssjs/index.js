@@ -85,7 +85,7 @@ function compart() {
 const emailCopy = document.querySelectorAll('.btn-copy-email');
 for (let e = 0; e < emailCopy.length; e++) {
     emailCopy[e].addEventListener('click', () => {
-        const texto = "alejandro@carrillodev.com";
+        const texto = "contacto@carrillodev.com";
         navigator.clipboard.writeText(texto)
             .then(() => {
                 alert("E-mail Copiado!");

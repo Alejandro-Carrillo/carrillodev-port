@@ -85,7 +85,7 @@ function compart() {
 const emailCopy = document.querySelectorAll('.btn-copy-email');
 for (let e = 0; e < emailCopy.length; e++) {
     emailCopy[e].addEventListener('click', () => {
-        const texto = "a.carrillodev@gmail.com";
+        const texto = "alejandro@carrillodev.com";
         navigator.clipboard.writeText(texto)
             .then(() => {
                 alert("E-mail Copiado!");
@@ -102,7 +102,7 @@ for (let e = 0; e < emailCopy.length; e++) {
 document.getElementById('contactForm').addEventListener('submit', function (event) {
     event.preventDefault();
     const formData = new FormData(this);
-    const scriptURL = 'https://script.google.com/macros/s/AKfycbyqomZGHBmf3fLn1ivOJCFD8UC7dkeewYGovdNTP_Sj_B3CHMZdIw0MQjzBplZo19Wamw/exec';
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxeDwxflMV9q7p9ObPoFJL1G9AmGtkFXFRu-jvzvghI9liYDGpbDD_016iRWDAhpps9OA/exec';
     let nameForm = document.getElementById('name-form').value;
     fetch(scriptURL, { method: 'POST', body: formData })
         .then(response => {
